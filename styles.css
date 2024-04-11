@@ -63,3 +63,24 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.social-container {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+#sociallink {
+    text-decoration: none;
+    color: #000;
+    vertical-align: middle;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#sociallink:hover {
+    color: #00CED1;
+}
+#sociallogo {
+    height: 18px;
+    margin-right:2px;
+    vertical-align: middle;
+}
